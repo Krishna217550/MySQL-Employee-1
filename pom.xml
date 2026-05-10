@@ -10,6 +10,16 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.2.5</version>
 </parent>
+<build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+        </plugins>
+    </build>
 
 <groupId>com.example</groupId>
 <artifactId>H2DataBaseProject</artifactId>
